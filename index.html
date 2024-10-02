@@ -7,26 +7,37 @@
     <title>FAQs</title>
     <style>
         body {
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
         }
 
         details {
             cursor: pointer;
             padding: 1rem;
-            margin: .5rem 0;
-            background-color: rgba(119, 25, 25, 0.2);
-            ;
-            font-weight: 400;
-            border: 2px solid red;
-            box-shadow: 0 0 16px 8px rgba(0, 5, 5, 0.2);
+            margin: 1rem 0;
+            background-color: #fff;
+            border: 2px solid #9b3651;
+            border-radius: 4px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s;
         }
 
-        details p {
-            font-size: .75rem;
+        details:hover {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
         }
 
         summary {
-            font-weight: 700;
+            font-weight: bold;
+            font-size: 1.1rem;
+            color: #ff6f61;
+        }
+
+        details p {
+            font-size: 0.9rem;
+            line-height: 1.5;
         }
     </style>
 </head>
